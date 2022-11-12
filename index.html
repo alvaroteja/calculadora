@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora Alvaro</title>
+        <link type="text/css" href="style/style.css" rel="stylesheet" />
+    </head>
+    <body onload="init();">
+        <div id="calculadora">
+            <div id="pantalla" class="fila">
+                <div id="valorAnterior"></div>
+                <div id="valorActual"></div>
+            </div>
+            <div id="botones">
+                <div id="fila1" class="fila">
+                    <button id="reset" class="botonSimple">C</button>
+                    <button id="borr" class="botonSimple">←</button>
+                    <button id="igual" class="botonDoble">=</button>
+                </div>
+                <div id="fila2" class="fila">
+                    <button id="7" class="numero botonSimple">7</button>
+                    <button id="8" class="numero botonSimple">8</button>
+                    <button id="9" class="numero botonSimple">9</button>
+                    <button id="division" class="operacion botonSimple">
+                        ÷
+                    </button>
+                </div>
+                <div id="fila3" class="fila">
+                    <button id="4" class="numero botonSimple">4</button>
+                    <button id="5" class="numero botonSimple">5</button>
+                    <button id="6" class="numero botonSimple">6</button>
+                    <button id="multiplicacion" class="operacion botonSimple">
+                        *
+                    </button>
+                </div>
+                <div id="fila4" class="fila">
+                    <button id="1" class="numero botonSimple">1</button>
+                    <button id="2" class="numero botonSimple">2</button>
+                    <button id="3" class="numero botonSimple">3</button>
+                    <button id="resta" class="operacion botonSimple">-</button>
+                </div>
+                <div id="fila5" class="fila">
+                    <button id="0" class="numero botonDoble">0</button>
+                    <button id="punto" class="botonSimple">.</button>
+                    <button id="suma" class="operacion botonSimple">+</button>
+                </div>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

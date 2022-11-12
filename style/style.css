@@ -1,0 +1,80 @@
+@import "reset.css";
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#calculadora {
+    width: 320px;
+    font-size: 30px;
+    background-color: rgb(55, 55, 61);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+}
+#pantalla {
+    background-color: rgb(115, 119, 122);
+    margin: 2px;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+}
+#valorAnterior,
+#valorActual {
+    width: 100%;
+    color: white;
+}
+
+#valorActual {
+    font-size: 20px;
+}
+
+#valorAnterior {
+    font-size: 40px;
+    min-height: 50%;
+}
+
+#botones > div {
+    height: 80px;
+}
+.fila {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(152, 158, 158);
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(171, 177, 177);
+}
+.botonSimple {
+    width: 25%;
+}
+.botonDoble {
+    width: 50%;
+}
+.numero {
+    background-color: rgb(214, 214, 214) !important;
+}
+.numero:hover {
+    background-color: rgb(192, 192, 192) !important;
+}
